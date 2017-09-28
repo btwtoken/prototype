@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<title></title>
+
+	
+	<!-- CORE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css"> 
+         <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">   
+    
+ </head>
+<body>
+<div class="dashboard">
+<div class="nav-container">
+  <div class="menu">
+	<div class="container">
+    	<div class="row">
+          <div class="col-md-6 col-sm-6">
+          <div class="logo">
+          <a href="#"><img src="images/logo2.png" alt=""></a>
+          <h3>Betting Win</h3>
+          <span>Alpha</span>
+          </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+          <nav role="navigation" class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                              </div>
+                              <div id="navbar" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                  <li class="active"><a href="#">XTZ <span>1, 000</span></a></li>
+                                  <li><a href="#">BTW <span>1, 000</span></a></li>
+                                  <li><a href="#"><div class="profile-img"></div>Username</a></li>
+                                  <li><a href="index.html">Log Out</a></li>
+                                </ul>
+                              </div>
+                        </nav> 
+          </div>
+         </div>
+     </div>
+  </div>
+</div>
+
+<div class="dashboard-tab">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="dashboard-tab-m">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#dash1">English Premier League</a></li>
+          <li><a data-toggle="tab" href="#dash2">Spanish La Liga Primera</a></li>
+          <li><a data-toggle="tab" href="#dash3">German Bundesliga</a></li>
+          <li><a data-toggle="tab" href="#dash4">Italian Serie A</a></li>
+          <li><a data-toggle="tab" href="#dash5">French Ligue 1</a></li>
+          </ul>
+
+          <div class="tab-content">
+          <div id="dash1" class="tab-pane fade in active">
+           <div class="dashboard-table">
+           <table width="100%">
+           <thead>
+             <tr>
+             <th>90 Minutes</th>
+             <th>Home</th>
+             <th>Draw</th>
+             <th>Away</th>
+             <th>Bet</th>
+             <th>Report</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-p"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td class="active"><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#" data-toggle="modal" data-target="#myModal">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#"   >Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+           </tbody>
+           </table>
+
+           </div>  
+          </div>
+          <div id="dash2" class="tab-pane fade">
+            <div class="dashboard-table">
+           <table width="100%">
+           <thead>
+             <tr>
+             <th>90 Minutes</th>
+             <th>Home</th>
+             <th>Draw</th>
+             <th>Away</th>
+             <th>Bet</th>
+             <th>Report</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-p"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+           </tbody>
+           </table>
+
+           </div> 
+          </div>
+          <div id="dash3" class="tab-pane fade">
+            <div class="dashboard-table">
+           <table width="100%">
+           <thead>
+             <tr>
+             <th>90 Minutes</th>
+             <th>Home</th>
+             <th>Draw</th>
+             <th>Away</th>
+             <th>Bet</th>
+             <th>Report</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+            <td><input type="text" value="" placeholder="6.0" class="table-p"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+            <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+           </tbody>
+           </table>
+
+           </div> 
+          </div>
+          <div id="dash4" class="tab-pane fade">
+          <div class="dashboard-table">
+           <table width="100%">
+           <thead>
+             <tr>
+             <th>90 Minutes</th>
+             <th>Home</th>
+             <th>Draw</th>
+             <th>Away</th>
+             <th>Bet</th>
+             <th>Report</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-p"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+           </tbody>
+           </table>
+
+           </div> 
+          </div>
+          <div id="dash5" class="tab-pane fade">
+           <div class="dashboard-table">
+           <table width="100%">
+           <thead>
+             <tr>
+             <th>90 Minutes</th>
+             <th>Home</th>
+             <th>Draw</th>
+             <th>Away</th>
+             <th>Bet</th>
+             <th>Report</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-p"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td class="active"><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a data-toggle="modal" data-target="#myModal">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+             <tr>
+             <td>Man UTD v Liverpool</td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><input type="text" value="" placeholder="6.0" class="table-span"></td>
+             <td><div class="dashboard-td"><input type="text" value="" placeholder="6.0"></div>
+             <a href="#">Place Bet</a>
+             </td>
+             <td><i class="fa fa-circle-o" aria-hidden="true"></i></td>
+             </tr>
+           </tbody>
+           </table>
+
+           </div> 
+          </div>
+          </div>
+          <div class="make-market">
+           <a href="market.html">Make Your Market</a>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+</body> 
+</html> 
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="place-bet">
+        <h6>Man UTD <span>v</span> Liverpool</h6>
+        <form method="post">
+        <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-5">
+        <div class="form-group">
+        <input type="text" value="" placeholder="">
+        </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2">
+        <p>:</p>
+         </div>
+        <div class="col-md-5 col-sm-5 col-xs-5">
+        <div class="form-group">
+        <input type="text" value="" placeholder="">
+        </div>
+        </div>
+       </div>
+        </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        
+        <a href="#"  data-dismiss="modal">Close</a>
+        <button type="button">Report</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    
+	<!-- Javascript -->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+<!----wow-js------>
+<script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script> 

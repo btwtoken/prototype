@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<title></title>
+
+	
+	<!-- CORE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css"> 
+         <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">   
+    
+ </head>
+<body>
+<div class="dashboard">
+<div class="nav-container">
+  <div class="menu">
+	<div class="container">
+    	<div class="row">
+          <div class="col-md-6 col-sm-6">
+          <div class="logo">
+          <a href="#"><img src="images/logo2.png" alt=""></a>
+          <h3>Betting Win</h3>
+          <span>Alpha</span>
+          </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+          <nav role="navigation" class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                              </div>
+                              <div id="navbar" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                  <li class="active"><a href="#">XTZ <span>1, 000</span></a></li>
+                                  <li><a href="#">BTW <span>1, 000</span></a></li>
+                                  <li><a href="#"><div class="profile-img"></div>Username</a></li>
+                                  <li><a href="index.html">Log Out</a></li>
+                                </ul>
+                              </div>
+                        </nav> 
+          </div>
+         </div>
+     </div>
+  </div>
+</div>
+
+<div class="make-market-m market-step2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <h4>How to make a market</h4>
+      <div class="market-step">
+      <div class="row">
+        <div class="col-md-3 col-sm-4">
+          <div class="market-list">
+          <ul>
+          <li><h6>Step 1</h6>
+          <p>Select an event
+and enter odds </p>
+          </li>
+          <li><h6>Step 2</h6>
+          <p>Deposit To the contract</p>
+          </li>
+          <li  class="active"><h6>Step 3</h6>
+          <p>Review</p>
+          </li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8">
+          <div class="market-form">
+          <form method="post">
+          <h5>Football > English Premier League > 9 Sep 2017</h5>
+          <div class="step1">
+          <div class="form-group">
+          <select>
+          <option>Man Utd V Liverpool</option>
+          </select>
+          </div>
+          <div class="form-group">
+          <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-4">
+          <label>Home Win</label>
+          <input type="text" value="" placeholder="3.1">
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+          <label>Draw</label>
+          <input type="text" value="" placeholder="3.1">
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+          <label>Away Win</label>
+          <input type="text" value="" placeholder="3.1">
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="extra-market-content">
+          <p>You have <span>1000 XTZ</span> deposited for this event.</p>
+          </div>
+          <div class="back-next-btn">
+          <a href="market2.html" class="pull-left back-btn"> < Back</a>
+          <a href="#" class="pull-right market-next-btn" data-toggle="modal" data-target="#confirm-popup">Confirm</a>
+          </div>
+          </form>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+</body> 
+</html> 
+
+<!-- Modal -->
+<div id="confirm-popup" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+      <div class="confirm-m">
+        <p>Once confirm, your deposit will be held by
+the contract and will be release after the 
+result report for this event.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+      <a href="#"  data-dismiss="modal" class="pull-left">close</a>
+        <button type="button" class="pull-right">I Understand</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    
+	<!-- Javascript -->
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+<!----wow-js------>
+<script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script> 
